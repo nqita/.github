@@ -5,19 +5,53 @@
 </p>
 
 <p align="center">
-<b style="color:#FF2D95">AI Runtime</b> — Cloudflare Worker, Widget, Browser Extension
+<b style="color:#FF2D95">AI Companion</b> — Terminal. Desktop. Chat.
 </p>
 
 ---
 
 ## What is Nqita?
 
-AI runtime that powers every WokSpec product:
+A persistent AI character that lives in your environment. One shared brain, multiple interfaces.
 
-- Chat widget on wokspec.org
-- AI companion in WokStudio
-- News analysis in WokHei
-- Browser extension
+```
+        ┌──────────────┐
+        │  NQITA Core  │
+        │ personality  │
+        │ memory       │
+        │ AI engine    │
+        └──────┬───────┘
+               │
+    ┌──────────┼──────────┐
+    ▼          ▼          ▼
+Terminal   Desktop    Chat UI
+```
+
+---
+
+## Interfaces
+
+### 1. Terminal Mode
+```
+$ nqita
+
+(•‿•)
+hey. what are we building today?
+```
+- Command generation
+- Debugging help
+- Script creation
+
+### 2. Desktop Companion
+- Pixel sprite on screen
+- Idle animations
+- Chat bubbles
+- Task notifications
+
+### 3. Floating Quick-Chat
+- Ctrl+Space anywhere
+- Quick questions
+- Disappears after
 
 ---
 
@@ -25,21 +59,16 @@ AI runtime that powers every WokSpec product:
 
 | Repo | Description |
 |------|-------------|
-| [nqita](https://github.com/nqita/nqita) | Main runtime — Cloudflare Worker API |
-| [nqita-cli](https://github.com/nqita/nqita-cli) | Command-line tools |
+| [nqita](https://github.com/nqita/nqita) | Core runtime |
+| [nqita-cli](https://github.com/nqita/nqita-cli) | Terminal interface |
 
 ---
 
 ## Quick Start
 
 ```bash
-# Install CLI
 npm install -g nqita-cli
-
-# Initialize
 nqita init
-
-# Chat
 nqita chat
 ```
 
@@ -47,13 +76,7 @@ nqita chat
 
 ## Live
 
-**Demo**: [nikita.wokspec.org](https://nikita.wokspec.org)
-
----
-
-## Tech
-
-Cloudflare Workers, Hono, React, OpenAI, Anthropic, Groq
+[nikita.wokspec.org](https://nikita.wokspec.org)
 
 ---
 
