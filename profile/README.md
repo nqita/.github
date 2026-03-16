@@ -12,7 +12,7 @@
 
 ## What is Nqita?
 
-A persistent AI character that lives in your environment. One shared brain, multiple interfaces.
+A persistent AI companion that lives across computing environments. One shared brain, multiple interfaces.
 
 ```
         ┌──────────────┐
@@ -52,6 +52,19 @@ hey. what are we building today?
 - Ctrl+Space anywhere
 - Quick questions
 - Disappears after
+
+---
+
+## Ecosystem role
+
+NQITA acts as an interface layer between users, tools, and ecosystem systems.
+
+Related systems include:
+
+- **Autiladus** — orchestration and execution infrastructure
+- **Orinadus** — intelligence and authored interpretation platform
+- **WokStudio** — creator tooling
+- **WokSpec** — umbrella context and coordination
 
 ---
 
