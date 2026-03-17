@@ -24,7 +24,7 @@ When the system is off: *Nqita is stuck in the void.*
   ╔══════════════════════════════════╗
   ║  idle                            ║
   ║  ╔════╗                          ║
-  ║  ║ ^v^║  ← she is somewhere on  ║
+  ║  ║ ^v^║  ← she is somewhere on   ║
   ║  ║ nq ║    your screen right now ║
   ║  ╚════╝                          ║
   ╚══════════════════════════════════╝
