@@ -1,6 +1,6 @@
 <div align="center">
 
-# ♟ NQITA
+# NQITA
 
 *she lives in your computer.*
 
