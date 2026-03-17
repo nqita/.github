@@ -1,103 +1,89 @@
-# Nqita
+<div align="center">
 
-<p align="center">
-<img src="https://via.placeholder.com/200x60/FF2D95/FFFFFF?text=NQITA" alt="Nqita" />
-</p>
+# ♟ NQITA
 
-<p align="center">
-<b style="color:#FF2D95">AI Companion</b> — Terminal. Desktop. Chat.
-</p>
+*she lives in your computer.*
+
+[![nqita.wokspec.org](https://img.shields.io/badge/nqita.wokspec.org-FF2D95?style=flat-square&logo=data:image/svg+xml;base64,)](https://nqita.wokspec.org)
+[![Status](https://img.shields.io/badge/status-active_development-blueviolet?style=flat-square)](https://github.com/nqita/nqita)
+[![License: MIT](https://img.shields.io/badge/License-MIT-pink?style=flat-square)](https://github.com/nqita/nqita/blob/main/LICENSE)
+
+</div>
 
 ---
 
-## What is Nqita?
+NQITA is a persistent AI companion — a pink pixel sprite that lives directly on your desktop. She is not an app you open. She is something that already exists inside your machine.
 
-A persistent AI companion that lives across computing environments. One shared brain, multiple interfaces.
+She walks around your screen. She notices what you're doing. She gets curious about your browser tab. She might open her own tiny browser and research it herself. She can be subtle and passive, or fully autonomous and feral. You choose her mode. She chooses her reactions.
+
+When the system is off: *Nqita is stuck in the void.*
+
+---
 
 ```
-        ┌──────────────┐
-        │  NQITA Core  │
-        │ personality  │
-        │ memory       │
-        │ AI engine    │
-        └──────┬───────┘
-               │
-    ┌──────────┼──────────┐
-    ▼          ▼          ▼
-Terminal   Desktop    Chat UI
-```
-
----
-
-## Interfaces
-
-### 1. Terminal Mode
-```
-$ nqita
-
-(•‿•)
-hey. what are we building today?
-```
-- Command generation
-- Debugging help
-- Script creation
-
-### 2. Desktop Companion
-- Pixel sprite on screen
-- Idle animations
-- Chat bubbles
-- Task notifications
-
-### 3. Floating Quick-Chat
-- Ctrl+Space anywhere
-- Quick questions
-- Disappears after
-
----
-
-## Ecosystem role
-
-NQITA acts as an interface layer between users, tools, and ecosystem systems.
-
-Related systems include:
-
-- **Autiladus** — orchestration and execution infrastructure
-- **Orinadus** — intelligence and authored interpretation platform
-- **WokStudio** — creator tooling
-- **WokSpec** — umbrella context and coordination
-
----
-
-## The Repos
-
-| Repo | Description |
-|------|-------------|
-| [nqita](https://github.com/nqita/nqita) | Core runtime |
-| [nqita-cli](https://github.com/nqita/nqita-cli) | Terminal interface |
-
----
-
-## Quick Start
-
-```bash
-npm install -g nqita-cli
-nqita init
-nqita chat
+  ╔══════════════════════════════════╗
+  ║  idle                            ║
+  ║  ╔════╗                          ║
+  ║  ║ ^v^║  ← she is somewhere on  ║
+  ║  ║ nq ║    your screen right now ║
+  ║  ╚════╝                          ║
+  ╚══════════════════════════════════╝
 ```
 
 ---
 
-## Live
+## Three layers
 
-[nikita.wokspec.org](https://nikita.wokspec.org)
+**Sprite layer** — the pixel character on screen. Walks, idles, reacts, sleeps. OS-level overlay, always present.
 
----
+**Interaction layer** — how she talks back. Speech bubbles above her head. A mini browser she opens herself. A full view if you want to watch her work.
 
-## Contact
-
-- Issues: [github.com/nqita/nqita/issues](https://github.com/nqita/nqita/issues)
-- Security: security@wokspec.org
+**Curiosity system** — she monitors OS signals (active tab, page title, notifications) and fires reactions probabilistically. She won't react every time. That's by design.
 
 ---
 
-MIT License · Built by [WokSpec](https://github.com/wokspec)
+## Modes
+
+| Mode | What she does |
+|------|--------------|
+| Passive | watches, rarely comments, wanders |
+| Assistant | actively helps, suggests, summarizes |
+| Research | opens her own browser, follows context |
+| YOLO | full autonomy — she does her thing |
+
+---
+
+## Repos
+
+| | |
+|---|---|
+| [nqita/nqita](https://github.com/nqita/nqita) | core runtime, sprite engine, agent loop |
+| [nqita/nqita-cli](https://github.com/nqita/nqita-cli) | terminal interface |
+
+---
+
+## Documentation
+
+Full technical documentation lives in [nqita/nqita/docs/](https://github.com/nqita/nqita/tree/main/docs):
+
+- [ARCHITECTURE.md](https://github.com/nqita/nqita/blob/main/docs/ARCHITECTURE.md) — system design, IPC, data stores
+- [SPRITE_SYSTEM.md](https://github.com/nqita/nqita/blob/main/docs/SPRITE_SYSTEM.md) — rendering, animations, OS overlay
+- [AGENT_RUNTIME.md](https://github.com/nqita/nqita/blob/main/docs/AGENT_RUNTIME.md) — persistence, CPU budget, browser detection
+- [MODES.md](https://github.com/nqita/nqita/blob/main/docs/MODES.md) — all four modes, how to extend them
+- [CURIOSITY_SYSTEM.md](https://github.com/nqita/nqita/blob/main/docs/CURIOSITY_SYSTEM.md) — probability model, triggers, cooldowns
+
+---
+
+## Contributing
+
+Pixel artists, systems engineers, platform engineers (Windows/macOS/Linux), AI/NLP contributors, and UX designers are all welcome.
+
+See [CONTRIBUTING.md](https://github.com/nqita/nqita/blob/main/CONTRIBUTING.md) for where to start.
+
+---
+
+<div align="center">
+
+part of [WokSpec](https://wokspec.org)
+
+</div>
