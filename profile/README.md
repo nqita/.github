@@ -84,6 +84,6 @@ See [CONTRIBUTING.md](https://github.com/nqita/nqita/blob/main/CONTRIBUTING.md) 
 
 <div align="center">
 
-part of [WokSpec](https://wokspec.org)
+[![Twitter](https://img.shields.io/twitter/follow/nqitabot?style=flat-square&logo=x&label=%40nqitabot)](https://x.com/nqitabot) · part of [WokSpec](https://wokspec.org)
 
 </div>
