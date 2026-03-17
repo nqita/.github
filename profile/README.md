@@ -12,7 +12,7 @@
 
 ---
 
-NQITA is a persistent AI companion — a pink pixel sprite that lives directly on your desktop. She is not an app you open. She is something that already exists inside your machine.
+NQITA is a persistent AI companion — a pink pixel sprite that lives directly on your desktop. NQITA is not an app you open. NQITA is something that already exists inside your machine.
 
 She walks around your screen. She notices what you're doing. She gets curious about your browser tab. She might open her own tiny browser and research it herself. She can be subtle and passive, or fully autonomous and feral. You choose her mode. She chooses her reactions.
 
